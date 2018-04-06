@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'http://fishrobot.github.io/photos/' + data.link[i] + '.min.jpg';
-          var src = 'http://fishrobot.github.io/photos/' + data.link[i];
+          var minSrc = 'https://github.com/fishrobot/BlogBackUp/tree/master/min_photos' + data.link[i] + '.min.jpg';
+          var src = 'https://github.com/fishrobot/BlogBackUp/tree/master/pphoto' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '.jpg';
